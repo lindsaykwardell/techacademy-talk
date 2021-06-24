@@ -8,7 +8,8 @@
   "dependencies": {
     "@slidev/cli": "^0.13.13",
     "@slidev/theme-default": "*",
-    "@slidev/theme-seriph": "*"
+    "@slidev/theme-seriph": "*",
+    "slidev-theme-purplin": "^1.0.0"
   },
   "name": "techacademy-talk"
 }
