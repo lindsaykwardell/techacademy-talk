@@ -108,10 +108,27 @@ The last comment block of each slide will be treated as slide notes. It will be 
 </div>
 
 ---
+layout: center
+class: text-center
+---
+
+# Side Projects!
+
+<div class="flex">
+<v-clicks>
+
+<span class="px-3">What am I going to learn?</span>
+
+<span class="px-3">What am I going to build?</span>
+
+</v-clicks>
+</div>
+
+---
 
 <v-click at="1">
 
-# What should I learn?
+# What am I going to learn?
 
 </v-click>
 
@@ -202,7 +219,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 
-# What should I learn?
+# What am I going to learn?
 
 <div grid="~ cols-7 gap-3">
 
@@ -400,3 +417,203 @@ How am I going to learn this?
 </div>
 
 ---
+layout: center
+class: text-center
+---
+
+# Elm?
+
+How do I learn this??
+
+<div class="flex justify-around items-end w-max m-auto">
+
+<img class="w-32" src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Elm_logo.svg"/>
+
+<span class="text-5xl">🤯</span>
+
+</div>
+
+---
+
+<div grid="~ cols-2">
+
+<div>
+
+# Elm - A delightful language for reliable web applications.
+
+Elm is a functional language that compiles to JavaScript. It helps you make websites and web apps. It has a strong emphasis on simplicity and quality tooling.
+
+
+https://elm-lang.org/
+
+</div>
+
+<div>
+
+```elm
+type alias Model = Int
+
+init : Model
+init =  0
+
+type Msg = Increment | Decrement
+
+update : Msg -> Model -> Model
+update msg model =
+  case msg of
+    Increment ->
+      model + 1
+
+    Decrement ->
+      model - 1
+
+view : Model -> Html Msg
+view model =
+  div []
+    [ button [ onClick Decrement ] [ text "-" ]
+    , div [] [ text (String.fromInt model) ]
+    , button [ onClick Increment ] [ text "+" ]
+    ]
+```
+
+</div>
+
+</div>
+
+---
+layout: center
+class: text-center
+---
+
+<div class="flex">
+
+# ...
+
+<v-click>
+
+<div><h1>💡</h1></div>
+
+</v-click>
+
+</div>
+
+---
+
+# Let's make a game!
+
+<div>
+
+![](/juralen-elm.png)
+
+</div>
+
+---
+
+# Why the same project?
+
+<div class="text-2xl pt-12">
+<v-clicks>
+
+- Same core logic
+- Interesting project
+- Freedom to learn
+
+</v-clicks>
+</div>
+
+---
+layout: center
+class: text-center
+---
+
+# Networking!
+
+<div class="opacity-0">
+
+- Write blogs and tutorials and cheatsheets.
+- Speak at meetups and conferences.
+- Ask and answer things on Stackoverflow or Reddit. Avoid the walled gardens like Slack and Discord, they're not public.
+- Make Youtube videos or Twitch streams.
+- Start a newsletter.
+- Draw cartoons (people loooove cartoons!).
+
+<div class="  ">https://www.swyx.io/learn-in-public/</div>
+
+</div>
+
+---
+layout: center
+class: text-center
+---
+
+<h1 class="line-through">Networking!</h1>
+
+<v-click><h1>Learning In Public</h1></v-click>
+
+<div class="m-auto text-left">
+<v-clicks>
+
+- Write blogs and tutorials and cheatsheets.
+- Speak at meetups and conferences.
+- Ask and answer things on Stackoverflow or Reddit.
+- Make Youtube videos or Twitch streams.
+- Start a newsletter.
+- Draw cartoons (people loooove cartoons!).
+
+</v-clicks>
+
+<v-click>https://www.swyx.io/learn-in-public/</v-click>
+
+</div>
+
+---
+
+![](/dev-to.png)
+
+---
+
+<div grid="~ cols-2">
+
+![](/twitter.png)
+
+<div class="flex items-center justify-center">
+<v-clicks>
+
+- #100DaysOfCode
+- #CodeNewbies
+
+</v-clicks>
+</div>
+
+</div>
+
+---
+
+<img class="m-auto w-112" src="https://devchat.tv/wp-content/uploads/2020/06/viewsonvue-1-scaled-768x768.jpg"/>
+
+---
+
+<img class="m-auto w-140" src="https://www.lindsaykwardell.com/blog/mp.jpg" />
+
+<div class="text-center">
+
+### Montgomery Park
+
+</div>
+
+---
+
+<img class="m-auto w-140" src="https://pbs.twimg.com/media/Ej_icFMVoAAp2gZ?format=jpg&name=4096x4096" />
+<div class="text-center">
+
+### My Pandemic Workspace
+
+</div>
+
+---
+
+<img class="m-auto" src="/thisdot-site.png" />
+
+---
+
+<img class="m-auto" src="/vgs.png" />
