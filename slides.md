@@ -511,7 +511,9 @@ class: text-center
 
 # Why the same project?
 
-<div class="text-2xl pt-12">
+<div class="flex">
+<div class="text-2xl pt-12 w-3/5 flex flex-col">
+<div class="flex-grow">
 <v-clicks>
 
 - Same core logic
@@ -519,6 +521,28 @@ class: text-center
 - Freedom to learn
 
 </v-clicks>
+</div>
+
+<v-click at="7">
+<span class="text-sm">
+
+https://juralen.lindsaykwardell.com
+
+</span>
+</v-click>
+
+</div>
+<div class="flex flex-wrap justify-center">
+<v-clicks>
+
+<img class="w-90" src="/warsofthejuriels.png" />
+
+<img class="w-64" src="/juralen-core.png" />
+
+<img class="w-74 h-56" src="/juralen-elm.png" />
+
+</v-clicks>
+</div>
 </div>
 
 ---
@@ -576,7 +600,7 @@ class: text-center
 
 ![](/twitter.png)
 
-<div class="flex items-center justify-center">
+<div class="flex items-center justify-center text-2xl">
 <v-clicks>
 
 - #100DaysOfCode
@@ -617,3 +641,25 @@ class: text-center
 ---
 
 <img class="m-auto" src="/vgs.png" />
+
+---
+
+<img class="m-auto w-140" src="/magic-school-bus.jpg" />
+
+<div class="w-48 m-auto text-center text-2xl">
+
+<v-clicks>
+
+- Take Chances
+- Make Mistakes
+- Get Messy
+
+</v-clicks>
+
+</div>
+
+---
+layout: center
+---
+
+# What are you going to build next?
