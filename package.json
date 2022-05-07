@@ -6,10 +6,10 @@
     "export": "slidev export"
   },
   "dependencies": {
-    "@slidev/cli": "^0.13.13",
+    "@slidev/cli": "^0.31.2",
     "@slidev/theme-default": "*",
     "@slidev/theme-seriph": "*",
-    "slidev-theme-purplin": "^1.0.0"
+    "slidev-theme-purplin": "^1.1.0"
   },
   "name": "techacademy-talk"
 }
