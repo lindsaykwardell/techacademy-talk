@@ -16,9 +16,9 @@ info: |
   Learn more at [Sli.dev](https://sli.dev)
 ---
 
-# My Coding Journey
+# Side Projects
 
-The Importance of Networking and Side Projects
+The Reason and Value of Building in Public
 
 <div grid="~ cols-5 gap-2">
 
@@ -317,21 +317,55 @@ How am I going to learn this?
 
 ---
 
-# Let's make a game!
+<div grid="~ cols-2">
 
 <div>
 
-![](/starcom.png)
+# Vue - The Progressive JavaScript Framework
+
+An approachable, performant and versatile framework for building web user interfaces.
+
+
+https://vuejs.org/
+
+</div>
+
+<div>
+
+```html
+<script setup>
+  import { ref } from 'vue'
+  const count = ref(0)
+
+  function increment() {
+    count.value++
+  }
+
+  function decrement() {
+    count.value--
+  }
+</script>
+
+<template>
+  <div>
+    <button @click="decrement">-</button>
+    <div>{{ count }}</div>
+    <button @click="increment">+</button>
+  </div>
+</template>
+```
+
+</div>
 
 </div>
 
 ---
 
-# Lindsey Forwarders Online Portal
+# Let's make a game!
 
 <div>
 
-![](/lindseyforwarders.png)
+![](/starcom.png)
 
 </div>
 
@@ -354,6 +388,48 @@ How am I going to learn this?
 
 ---
 
+<div grid="~ cols-2">
+
+<div>
+
+# React - A JavaScript library for building user interfaces
+
+https://reactjs.org/
+
+</div>
+
+<div>
+
+```jsx
+import * as React from 'react';
+
+export default function App() {
+  const [count, setCount] = React.useState(0)
+
+  function increment() {
+    setCount(count + 1)
+  }
+
+  function decrement() {
+    setCount(count - 1)
+  }
+
+  return (
+    <div>
+      <button onClick={decrement}>-</button>
+      <div>{count}</div>
+      <button onClick={increment}>+</button>
+    </div>
+  );
+}
+```
+
+</div>
+
+</div>
+
+---
+
 # Let's make a game!
 
 <div>
@@ -361,33 +437,6 @@ How am I going to learn this?
 ![](/warsofthejuriels.png)
 
 </div>
-
----
-
-<v-clicks>
-
-<div class="flex items-center py-5">
-<img class="w-32 pr-4" src="https://miro.medium.com/max/2400/1*4_Zw6Xyk4wv6hgoNEjDB2Q.png" />
-
-## Gatsby - Static Site Generator
-
-</div>
-
-<div class="flex items-center py-5">
-<img class="w-32 pr-4" src="https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg" />
-
-## GraphQL - Data Query Language
-
-</div>
-
-<div class="flex items-center py-5">
-<img class="w-32 pr-4" src="https://www.lindsaykwardell.com/tailwind.png" />
-
-## Tailwind CSS - Utility-First CSS Framework
-
-</div>
-
-</v-clicks>
 
 ---
 layout: center
@@ -403,6 +452,46 @@ How am I going to learn this?
 <img class="w-12" src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg"/>
 
 <span class="text-5xl">😧</span>
+
+</div>
+
+---
+
+<div grid="~ cols-2 gap-2">
+
+<div>
+
+# Typescript - JavaScript with syntax for types
+
+TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
+
+https://typescriptlang.org/
+
+</div>
+
+<div>
+
+```ts
+type Counter = {
+    value: number
+    increment: () => Counter
+    decrement: () => Counter
+}
+
+const counter: Counter = {
+    value: 0,
+    increment() {
+        this.value++
+        return this
+    },
+    decrement() {
+        this.value--
+        return this
+    }
+}
+```
+
+</div>
 
 </div>
 
@@ -519,6 +608,7 @@ class: text-center
 - Same core logic
 - Interesting project
 - Freedom to learn
+- See your own progress
 
 </v-clicks>
 </div>
@@ -550,97 +640,96 @@ layout: center
 class: text-center
 ---
 
-# Networking!
+# 3 Different Kinds of Side Projects
 
-<div class="opacity-0">
-
-- Write blogs and tutorials and cheatsheets.
-- Speak at meetups and conferences.
-- Ask and answer things on Stackoverflow or Reddit. Avoid the walled gardens like Slack and Discord, they're not public.
-- Make Youtube videos or Twitch streams.
-- Start a newsletter.
-- Draw cartoons (people loooove cartoons!).
-
-<div class="  ">https://www.swyx.io/learn-in-public/</div>
-
-</div>
-
----
-layout: center
-class: text-center
----
-
-<h1 class="line-through">Networking!</h1>
-
-<v-click><h1>Learning In Public</h1></v-click>
-
-<div class="m-auto text-left">
 <v-clicks>
 
-- Write blogs and tutorials and cheatsheets.
-- Speak at meetups and conferences.
-- Ask and answer things on Stackoverflow or Reddit.
-- Make Youtube videos or Twitch streams.
-- Start a newsletter.
-- Draw cartoons (people loooove cartoons!).
+- Learning Projects
+- Maintained Projects
+- Slow Cooker Projects
 
 </v-clicks>
 
-<v-click>https://www.swyx.io/learn-in-public/</v-click>
-
-</div>
-
 ---
 
-![](/dev-to.png)
+# Learning Projects
 
----
+<div class="flex justify-between w-2/3 m-auto pb-4">
 
-<div grid="~ cols-2">
-
-![](/twitter.png)
-
-<div class="flex items-center justify-center text-2xl">
 <v-clicks>
 
-- #100DaysOfCode
-- #CodeNewbies
+<img class="w-64 pr-8" src="/lego-set.jpeg" />
+<img class="w-64 pl-8" src="/lego-experiment.jpeg" />
 
 </v-clicks>
-</div>
 
 </div>
 
+<v-clicks>
+
+- Experiments intended for learning
+- Could be following tutorial or trying something out
+- Don't expect it to last very long
+- Todo apps, consuming public APIs, trying out a new language/framework
+
+</v-clicks>
+
 ---
 
-<img class="m-auto w-112" src="https://devchat.tv/wp-content/uploads/2020/06/viewsonvue-1-scaled-768x768.jpg"/>
+# Maintained Projects
 
----
+<div class="flex justify-between w-2/3 m-auto pb-4">
 
-<img class="m-auto w-140" src="https://www.lindsaykwardell.com/blog/mp.jpg" />
+<v-clicks>
 
-<div class="text-center">
+<img class="w-80 pr-8" src="/lego-scene.jpeg" />
+<img class="w-80 pl-8" src="/lego-custom.jpeg" />
 
-### Montgomery Park
+</v-clicks>
 
 </div>
 
+<v-clicks>
+
+- Intended as a long-running project
+- Typically small (not always)
+- Useful in a portfolio
+- Blogs, open source projects, small sites/apps/examples
+
+</v-clicks>
+
 ---
 
-<img class="m-auto w-140" src="https://pbs.twimg.com/media/Ej_icFMVoAAp2gZ?format=jpg&name=4096x4096" />
-<div class="text-center">
+# Slow Cooker Projects
 
-### My Pandemic Workspace
+<div class="flex justify-center m-auto pb-4">
+
+<v-clicks>
+
+<img class="w-98 pr-8" src="/master-lego.jpeg" />
+
+</v-clicks>
 
 </div>
 
+<v-clicks>
+
+- Playground of ambition
+- May not have a polished result for years (if ever!)
+
+</v-clicks>
+
 ---
 
-<img class="m-auto" src="/thisdot-site.png" />
+<img class="m-auto" src="/juralen-elm-2.png" />
 
 ---
 
-<img class="m-auto" src="/vgs.png" />
+<img class="m-auto" src="/juralen-elm.png" />
+
+---
+
+<img class="m-auto" src="/twitter-screenshot.png" />
 
 ---
 
