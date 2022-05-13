@@ -74,7 +74,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 #### Software Engineer
 
-<img class="m-auto" src="noredink.png" />
+<img class="m-auto" src="/noredink.png" />
 
 </div>
 
@@ -702,25 +702,25 @@ class: text-center
 
 # Maintained Projects
 
-<img class="w-2/3 m-auto" src="natural-order.png" />
+<img class="w-2/3 m-auto" src="/natural-order.png" />
 
 ---
 
 # Maintained Projects
 
-<img class="w-2/3 m-auto" src="elm-vue-bridge.png" />
+<img class="w-2/3 m-auto" src="/elm-vue-bridge.png" />
 
 ---
 
 # Maintained Projects
 
-<img class="w-3/5 m-auto" src="vite-elm-template.png" />
+<img class="w-3/5 m-auto" src="/vite-elm-template.png" />
 
 ---
 
 # Maintained Projects
 
-<img class="w-2/3 m-auto" src="nuxt-to-astro.png" />
+<img class="w-2/3 m-auto" src="/nuxt-to-astro.png" />
 
 ---
 
