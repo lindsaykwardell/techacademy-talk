@@ -18,7 +18,7 @@ info: |
 
 # Side Projects
 
-The Reason and Value of Building in Public
+The Value of Building in Public
 
 <div grid="~ cols-5 gap-2">
 
