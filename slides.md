@@ -700,6 +700,30 @@ class: text-center
 
 ---
 
+# Maintained Projects
+
+<img class="w-2/3 m-auto" src="natural-order.png" />
+
+---
+
+# Maintained Projects
+
+<img class="w-2/3 m-auto" src="elm-vue-bridge.png" />
+
+---
+
+# Maintained Projects
+
+<img class="w-3/5 m-auto" src="vite-elm-template.png" />
+
+---
+
+# Maintained Projects
+
+<img class="w-2/3 m-auto" src="nuxt-to-astro.png" />
+
+---
+
 # Slow Cooker Projects
 
 <div class="flex justify-center m-auto pb-4">
@@ -726,6 +750,14 @@ class: text-center
 ---
 
 <img class="m-auto" src="/juralen-elm.png" />
+
+---
+
+<img class="m-auto" src="/starcom.png" />
+
+---
+
+<img class="w-3/4 m-auto" src="/starcom-playthrough.jpeg" />
 
 ---
 
